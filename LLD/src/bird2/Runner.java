@@ -7,7 +7,7 @@ public class Runner {
 		System.out.println("BIRD RUNNER");
 		
 		Bird parrot = new Parrot( "Green",10);
-		System.out.println("COLOR OF PARROT is "+parrot.getColour());
+		System.out.println("COLOR OF PARROT is "+parrot.getColour()+" WEIGHT IS "+parrot.getWeight()+" KG ");
         ((flyable)parrot).canFly();
 
         flyable eagle = new Eagle("Brown", 20);
